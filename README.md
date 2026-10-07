@@ -1,6 +1,6 @@
 # totvs-rm-soap-laravel (deprecated)
 
-Este pacote foi **unificado** em [`mateusfbi/totvs-rm-soap`](https://packagist.org/packages/mateusfbi/totvs-rm-soap).
+> **Nota:** o pacote `mateusfbi/totvs-rm-soap-laravel` foi unificado. Migre para [`mateusfbi/totvs-rm-soap`](https://packagist.org/packages/mateusfbi/totvs-rm-soap).
 
 ## Migração
 
