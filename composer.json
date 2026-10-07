@@ -1,9 +1,10 @@
 {
     "name": "mateusfbi/totvs-rm-soap-laravel",
-    "description": "Biblioteca de Conexão SOAP para integração com TOTVS RM usando Laravel",
-    "keywords": ["soap", "totvs", "rm","laravel","totvs-rm"],
+    "description": "DEPRECATED: use mateusfbi/totvs-rm-soap. Pacote unificado e framework-agnóstico.",
+    "keywords": ["soap", "totvs", "rm", "laravel", "totvs-rm", "deprecated"],
     "license": "MIT",
     "type": "library",
+    "abandoned": "mateusfbi/totvs-rm-soap",
     "authors": [
         {
             "name": "Mateus Brandão",
@@ -11,18 +12,7 @@
         }
     ],
     "require": {
-        "php": "^8.0"
-    },
-    "autoload": {
-        "psr-4": {
-            "mateusfbi\\TotvsRmSoap\\": "src/"
-        }
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "mateusfbi\\TotvsRmSoap\\Providers\\TotvsRmSoapProvider"
-            ]
-        }
+        "php": "^8.2",
+        "mateusfbi/totvs-rm-soap": "^3.0"
     }
 }
