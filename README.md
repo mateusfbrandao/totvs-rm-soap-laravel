@@ -6,19 +6,9 @@ Este pacote foi **unificado** em [`mateusfbi/totvs-rm-soap`](https://packagist.o
 
 ```bash
 composer remove mateusfbi/totvs-rm-soap-laravel
-composer require mateusfbi/totvs-rm-soap
+composer require mateusfbi/totvs-rm-soap:^3.0
 ```
 
-Atualize os namespaces no código:
-
-```diff
-- use mateusfbi\TotvsRmSoap\Services\DataServer;
-+ use TotvsRmSoap\Services\DataServer;
-```
-
-```diff
-- use mateusfbi\TotvsRmSoap\Facades\TotvsRM;
-+ use TotvsRmSoap\Facades\TotvsRM;
-```
+O namespace **`mateusfbi\TotvsRmSoap\`** permanece o mesmo — em geral não é preciso alterar os `use` no código.
 
 A API dos serviços permanece a mesma. Veja o README do pacote novo para uso em PHP puro e Laravel.
